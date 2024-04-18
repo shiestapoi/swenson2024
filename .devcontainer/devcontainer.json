@@ -1,0 +1,43 @@
+{
+    "name": "PHP 8.2 & Composer",
+    "dockerFile": "Dockerfile",
+    "appPort": 8000,
+    "extensions": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "mikestead.dotenv",
+        "onecentlin.laravel5-snippets",
+        "DEVSENSE.composer-php-vscode",
+        "donjayamanne.githistory",
+        "GitHub.copilot",
+        "codezombiech.gitignore",
+        "eamodio.gitlens",
+        "ecmel.vscode-html-css",
+        "kisstkondoros.vscode-gutter-preview",
+        "oderwat.indent-rainbow",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "DEVSENSE.intelli-php-vscode",
+        "ryannaddy.laravel-artisan",
+        "shufo.vscode-blade-formatter",
+        "onecentlin.laravel-blade",
+        "austenc.laravel-blade-spacer",
+        "IHunte.laravel-blade-wrapper",
+        "glitchbl.laravel-create-view",
+        "onecentlin.laravel-extension-pack",
+        "MrChetan.goto-laravel-components",
+        "naoray.laravel-goto-components",
+        "mongodb.mongodb-vscode",
+        "DEVSENSE.phptools-vscode",
+        "xdebug.php-pack",
+        "esbenp.prettier-vscode"
+    ],
+    "settings": {
+        "php.validate.executablePath": "/usr/local/bin/php"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest"
+        }
+    }
+}
