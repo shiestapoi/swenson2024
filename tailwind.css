@@ -30,3 +30,43 @@ body {
 #dark-toggle:checked ~ label div.toggle-circle {
   @apply translate-x-3;
 }
+/* Scrollbar untuk mode terang */
+html:not(.dark) {
+  scrollbar-color: #06b6d4 #ffffff; 
+}
+
+html:not(.dark) * {
+  scrollbar-color: #06b6d4 #ffffff;
+}
+
+/* Scrollbar untuk mode gelap */
+html.dark {
+  scrollbar-color: #c026d3 #1e293b; 
+}
+
+html.dark * {
+  scrollbar-color: #c026d3 #1e293b;
+}
+
+/* Style untuk Firefox */
+* {
+  scrollbar-width: thin;
+}
+
+/* Style untuk Chrome, Edge, dan Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #06b6d4; /* Warna default untuk mode terang */
+  border-radius: 20px;
+}
+
+html.dark *::-webkit-scrollbar-thumb {
+  background-color: #c026d3; /* Warna untuk mode gelap */
+}

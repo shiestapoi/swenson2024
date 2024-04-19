@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .square {
     position: relative;
     margin: 0 10px;
@@ -72,9 +75,21 @@
     box-shadow: 0 0 8px #b455b6, /* Bayangan dalam */
                  0 0 20px #b455b6, /* Bayangan sedang */
                  0 0 40px #b455b6, /* Bayangan luar */
-                 0 0 80px #b455b6; /* Bayangan sangat luar */
+                 0 0 50px #b455b6; /* Bayangan sangat luar */
+}
+.yellowneon:hover {
+    filter: drop-shadow(0 0 8px #eab308) /* Warna kuning untuk yellowneon */
+            drop-shadow(0 0 20px #eab308)
+            drop-shadow(0 0 40px #eab308)
+            drop-shadow(0 0 50px #eab308);
 }
 
+.slateneon:hover {
+    filter: drop-shadow(0 0 8px #64748b) /* Warna abu-abu untuk slateneon */
+            drop-shadow(0 0 20px #64748b)
+            drop-shadow(0 0 40px #64748b)
+            drop-shadow(0 0 50px #64748b);
+}
 
 @keyframes animate {
     0% {
@@ -93,3 +108,13 @@
         transform: rotate(0deg);
     }
 }
+  @keyframes blinkCursor {
+    from { border-right-color: black; }
+    to { border-right-color: transparent; }
+  }
+
+  .contactme-input:focus {
+    animation: blinkCursor 1s step-end infinite;
+    border-right: 2px solid black; /* Menambahkan 'kursor' pada input */
+    outline: none; /* Menghilangkan outline default untuk fokus */
+  }

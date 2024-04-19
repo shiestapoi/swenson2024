@@ -18,4 +18,4 @@
     </script>
 </head>
 
-<body class="bg-white dark:bg-black">
+<body class="bg-white dark:bg-dark">
