@@ -125,7 +125,7 @@
                         </div>
                     </div>
                     <h1 class="text-3xl font-bold text-gray-800 dark:text-white">Swenson Simanjuntak</h1>
-                    <p class="text-sm text-gray-600 dark:text-gray-400">swenson@bloomify.com | +62 821 7943 8863</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">contactme@swenson.my.id | +62 821 7943 8863</p>
                 </div>
                 <!-- About Section -->
                 <div class="mb-8">
