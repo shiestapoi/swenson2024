@@ -237,7 +237,7 @@
 <!-- CV Section End -->
 <!-- Porto Section Start -->
 <section id="Porto"
-    class="bg-gradient-to-b from-white to-cyan-300 dark:from-dark dark:to-slate-800 pt-16 pb-16 relative transition duration-300">
+    class=" bg-gradient-to-b from-white to-cyan-300 dark:from-dark dark:to-slate-800 pt-16 pb-16 relative">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
             <div class="avatar-group -space-x-6 rtl:space-x-reverse justify-center">
@@ -258,17 +258,20 @@
         </div>
         <div class="flex flex-wrap justify-center gap-8 mx-auto">
             <!-- Contoh Kartu Galeri Proyek -->
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="card w-96 bg-base-100 ransition duration-300 dark:bg-slate-800 shadow-xl">
                 <figure><img src="img/jlema.jpeg" alt="Jlema" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title">
+                    <h2 class="card-title text-gray-900 ransition duration-300 dark:text-gray-200">
                         Dashboard Jlema NFT!
                     </h2>
-                    <p>Jlema A timeless and universal digital collectible that celebrates the beauty of clean art.
+                    <p class="text-gray-600 dark:text-gray-400">Jlema A timeless and universal digital collectible that
+                        celebrates the beauty of clean art.
                     </p>
                     <div class="card-actions justify-end">
-                        <div class="badge badge-outline">React.js</div>
-                        <div class="badge badge-outline">Laravel</div>
+                        <div class="badge badge-outline ransition duration-300 text-gray-900 dark:text-gray-200">
+                            React.js</div>
+                        <div class="badge badge-outline ransition duration-300 text-gray-900 dark:text-gray-200">
+                            Laravel</div>
                     </div>
                 </div>
             </div>
