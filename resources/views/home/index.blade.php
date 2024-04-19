@@ -38,7 +38,7 @@
                                 Me</a>
                         </li>
                         <li class="group">
-                            <a href="#contactme"
+                            <a href="dashboard"
                                 class="btn btn-outline btn-primary mx-4 flex text-base text-dark transition duration-300 dark:text-white">Dashboard</a>
                         </li>
                         <li class="mt-3 flex items-center pl-8 lg:mt-0 darkmodeneon">
