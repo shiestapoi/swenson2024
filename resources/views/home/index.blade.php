@@ -108,7 +108,7 @@
                 <h1 class="text-4xl font-bold text-gray-800 transition duration-300 dark:text-white">Mini Resume &
                     Curriculum Vitae</h1>
             </div>
-            <div class="w-full lg:w-3/4 bg-white dark:bg-neutral rounded-lg shadow-lg p-8">
+            <div class="w-full lg:w-3/4 bg-white dark:bg-neutral rounded-lg shadow-lg p-8 neonbox">
                 <!-- Profile Image and Contact Info -->
                 <div class="flex flex-col items-center text-center mb-12">
                     <div class="avatar">
@@ -227,5 +227,47 @@
     </div>
 </section>
 <!-- CV Section End -->
+<!-- Porto Section Start -->
+<section id="Porto" class="bg-white pt-16 pb-16 relative transition duration-300 dark:bg-dark">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <div class="avatar-group -space-x-6 rtl:space-x-reverse justify-center">
+                <div class="avatar">
+                    <div class="w-12">
+                        <img src="img/1.png" />
+                    </div>
+                </div>
+                <div class="avatar">
+                    <div class="w-12">
+                        <img src="img/bloowify.png" />
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-4xl font-bold text-gray-800 transition duration-300 dark:text-white">Portofolio</h1>
+            <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">Berikut adalah beberapa project yang telah saya
+                kerjakan bersama agency Bloowify.</p>
+        </div>
+        <div class="flex justify-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
+                <!-- Contoh Kartu Galeri Proyek -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="img/jlema.jpeg" alt="Jlema" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            Dashboard Jlema NFT!
+                        </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                            <div class="badge badge-outline">React.js</div>
+                            <div class="badge badge-outline">Laravel</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambahkan lebih banyak kartu proyek sesuai kebutuhan -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Porto Section End -->
 
 @include('home.layout.footer')

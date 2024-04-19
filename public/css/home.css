@@ -67,6 +67,13 @@
     background: #c026d3;
 }
 
+.neonbox {
+    /* Efek neon ungu */
+    box-shadow: 0 0 8px #b455b6, /* Bayangan dalam */
+                 0 0 20px #b455b6, /* Bayangan sedang */
+                 0 0 40px #b455b6, /* Bayangan luar */
+                 0 0 80px #b455b6; /* Bayangan sangat luar */
+}
 
 
 @keyframes animate {
