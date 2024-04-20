@@ -3,15 +3,14 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use App\Http\Controllers\AllController;
 
 Route::get('/', function () {
     return view('home.index');
 });
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/dashboard', function () {
-        return phpinfo();
-    });
+    Route::get('/dashboard', [AllController::class, 'dashboard'])->name('dashboard');
     Route::get('/logout', function () {
         Auth::logout();
         return redirect('/login');

@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        "./resources/views/home/**/*.blade.php",
-        "./resources/views/home/*.blade.php"
+        "./resources/views/dashboard/**/*.blade.php",
+        "./resources/views/dashboard/*.blade.php"
     ],
     darkMode: "class",
     theme: {
