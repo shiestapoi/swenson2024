@@ -53,7 +53,63 @@
     font-family: "Figtree", sans-serif;
   }
 }
+/* App.css */
+.alert-visible {
+  animation: slideDown 0.5s forwards;
+}
 
+.alert-hidden {
+  animation: fadeOut 1s forwards;
+}
+
+.password-error {
+  transition: opacity 300ms ease-in-out;
+  opacity: 0; /* Default state */
+}
+
+.password-error-visible {
+  opacity: 1;
+}
+
+.neonbox {
+  /* Efek neon ungu */
+  box-shadow: 0 0 8px #b455b6, /* Bayangan dalam */ 0 0 20px #b455b6,
+    /* Bayangan sedang */ 0 0 40px #b455b6, /* Bayangan luar */ 0 0 50px #b455b6; /* Bayangan sangat luar */
+}
+.yellowneon:hover {
+  filter: drop-shadow(0 0 8px #eab308) /* Warna kuning untuk yellowneon */
+    drop-shadow(0 0 20px #eab308) drop-shadow(0 0 40px #eab308)
+    drop-shadow(0 0 50px #eab308);
+}
+
+.slateneon:hover {
+  filter: drop-shadow(0 0 8px #64748b) /* Warna abu-abu untuk slateneon */
+    drop-shadow(0 0 20px #64748b) drop-shadow(0 0 40px #64748b)
+    drop-shadow(0 0 50px #64748b);
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.navbar-fixed {
+  @apply fixed z-[9999];
+}
 /* Scrollbar untuk mode terang */
 html:not(.dark) {
   scrollbar-color: #06b6d4 #ffffff;

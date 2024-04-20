@@ -5,17 +5,18 @@ namespace App\Http\Controllers\Api;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Resources\LoginResource;
 use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
     /**
-     * index
+     * store
      *
      * @return void
      */
-    public function index(Request $request): LoginResource
+    public function store(Request $request): LoginResource
     {
         if (empty($request->all())) {
             return new LoginResource(false, 'Request tidak ada atau kosong', null);
@@ -29,7 +30,6 @@ class LoginController extends Controller
             'user' => 'required|string',
             'password' => 'required|string',
         ]);
-
         // Cek username atau email
         $user = User::where('username', $credentials['user'])
             ->orWhere('email', $credentials['user'])
@@ -43,6 +43,6 @@ class LoginController extends Controller
             return new LoginResource(false, 'Password salah', null);
         }
 
-        return new LoginResource(true, 'Login Berhasil', $user);
+        return new LoginResource(true, 'Login berhasil', $user);
     }
 }
