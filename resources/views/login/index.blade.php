@@ -18,8 +18,8 @@
             document.documentElement.classList.remove("dark");
         }
     </script>
-    <script type="module" crossorigin src="/assets/index-B3ZH81ZW.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BEP2cC18.css">
+    <script type="module" crossorigin src="/assets/index-BX7J8SEy.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cmro5yzw.css">
 </head>
 
 <body class="bg-cyan-100 transition duration-300 dark:bg-dark">

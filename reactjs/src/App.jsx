@@ -205,7 +205,7 @@ function App() {
         </div>
       )}
       <div className="min-h-screen flex items-center justify-center">
-        <div className="mockup-window border m-10 dark:border-white border-slate-700 transition duration-300 bg-indigo-400 dark:bg-slate-300 w-96 shadow-lg rounded-lg">
+        <div className="mockup-window border my-10 dark:border-white border-slate-700 transition duration-300 bg-indigo-400 dark:bg-slate-300 w-96 shadow-lg rounded-lg">
           <div className="card-body p-6 transition duration-300 bg-fuchsia-200 dark:bg-slate-700">
             <h1 className="card-title text-2xl font-bold mb-4 text-purple-500 transition duration-300 dark:text-cyan-500">
               Login

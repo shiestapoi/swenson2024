@@ -18,9 +18,6 @@ Route::middleware(['auth'])->group(function () {
     });
 });
 
-Route::middleware(['web'])->group(function () {
-    // Route yang memerlukan sesi
-});
 
 Route::middleware(['guest'])->group(function () {
     Route::get('/login', function () {
