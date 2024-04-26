@@ -99,7 +99,7 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <img src="img/1.png" alt="Swenson Simanjuntak" class="w-2/3 scale-125 md:scale-150" />
+                        <img src="img/1.png" alt="Swenson Simanjuntak" class="w-2/4 scale-125 md:scale-150" />
                     </div>
                 </div>
             </div>

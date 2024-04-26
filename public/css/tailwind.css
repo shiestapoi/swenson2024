@@ -1980,12 +1980,12 @@ html {
   height: 2rem;
 }
 
-.w-12 {
-  width: 3rem;
+.w-1\/5 {
+  width: 20%;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
+.w-12 {
+  width: 3rem;
 }
 
 .w-24 {
@@ -2010,6 +2010,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-2\/4 {
+  width: 50%;
 }
 
 .max-w-\[250px\] {
@@ -2498,7 +2502,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .navbar-fixed {
